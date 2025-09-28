@@ -1,0 +1,1 @@
+ "C:/SFML/SFML-3.0.1/install/lib/libsfml-graphics.a" "C:/SFML/SFML-3.0.1/install/lib/libsfml-audio.a" "C:/SFML/SFML-3.0.1/install/lib/libsfml-network.a" "C:/SFML/SFML-3.0.1/install/lib/libsfml-window.a" "C:/SFML/SFML-3.0.1/install/lib/libsfml-system.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
