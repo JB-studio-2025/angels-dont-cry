@@ -3,9 +3,12 @@
 
 #include "object.h"
 #include "player.h"
+#include "world.h"
+#include "motion.h"
 #include<string>
 #include <SFML/Graphics.hpp>
 #include<vector>
+
 
 using namespace std;
 
@@ -18,9 +21,11 @@ class game_state
   virtual bool update();
   virtual void render();
   sf::Texture load_texture(string);
-protected:
   sf::RenderWindow& window;
-  vector<Object*> objects;
+protected:
+  Motion* motion;
+  //Player* player;
+  //vector<Object*> objects;
   bool game_is_running;
   vector<sf::Texture> textures;
 };

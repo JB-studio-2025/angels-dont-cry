@@ -16,6 +16,10 @@ set(SOURCE_FILES
     object.h
     player.cc
     player.h
+	motion.cc
+	motion.h
+	world.cc
+	world.h
 )
 
 add_executable(GAYME ${SOURCE_FILES})

@@ -1,6 +1,7 @@
-CMakeFiles/GAYME.dir/main.cc.obj: \
- C:\Users\Johan\Documents\Bella\game_2\main.cc \
- C:\Users\Johan\Documents\Bella\game_2\gamestate.h \
+CMakeFiles/GAYME.dir/motion.cc.obj: \
+ C:\Users\Johan\Documents\Bella\game_2\motion.cc \
+ C:\Users\Johan\Documents\Bella\game_2\motion.h \
+ C:\Users\Johan\Documents\Bella\game_2\player.h \
  C:\Users\Johan\Documents\Bella\game_2\object.h \
  C:/SFML/SFML-3.0.1/install/include/SFML/Graphics.hpp \
  C:/SFML/SFML-3.0.1/install/include/SFML/Graphics/BlendMode.hpp \
@@ -287,7 +288,5 @@ CMakeFiles/GAYME.dir/main.cc.obj: \
  C:/SFML/SFML-3.0.1/install/include/SFML/System/InputStream.hpp \
  C:/SFML/SFML-3.0.1/install/include/SFML/System/MemoryInputStream.hpp \
  C:/SFML/SFML-3.0.1/install/include/SFML/System/Sleep.hpp \
- C:\Users\Johan\Documents\Bella\game_2\player.h \
  C:\Users\Johan\Documents\Bella\game_2\world.h \
- C:\Users\Johan\Documents\Bella\game_2\motion.h \
  C:/msys64/mingw64/include/c++/15.2.0/iostream

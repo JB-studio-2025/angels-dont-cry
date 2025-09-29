@@ -4,7 +4,7 @@
 class game
 {
 	private:
-	sf::RenderWindow window{sf::VideoMode({800,800}),"Game"};
+	sf::RenderWindow window{sf::VideoMode({1920,1080}),"Game"};
 	game_state* passive_state{new in_game(window)};
 	game_state* active_state{new start_menu(window)};
 	
@@ -12,7 +12,8 @@ class game
 	
 		game()
 		{
-		
+			window.setVerticalSyncEnabled(true);
+			window.setFramerateLimit(120);
 			while(check_for_quitters())
 			{
 				//updates and changes state

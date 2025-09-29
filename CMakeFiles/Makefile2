@@ -84,12 +84,12 @@ clean: CMakeFiles/GAYME.dir/clean
 CMakeFiles/GAYME.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Johan\Documents\Bella\game_2\CMakeFiles --progress-num=1,2,3,4,5 "Built target GAYME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Johan\Documents\Bella\game_2\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target GAYME"
 .PHONY : CMakeFiles/GAYME.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GAYME.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Johan\Documents\Bella\game_2\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Johan\Documents\Bella\game_2\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GAYME.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Johan\Documents\Bella\game_2\CMakeFiles 0
 .PHONY : CMakeFiles/GAYME.dir/rule
@@ -101,7 +101,7 @@ GAYME: CMakeFiles/GAYME.dir/rule
 # codegen rule for target.
 CMakeFiles/GAYME.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Johan\Documents\Bella\game_2\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target GAYME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Johan\Documents\Bella\game_2\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target GAYME"
 .PHONY : CMakeFiles/GAYME.dir/codegen
 
 # clean rule for target.

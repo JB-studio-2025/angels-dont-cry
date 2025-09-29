@@ -4,8 +4,8 @@
 
 using namespace std;
 
-Player::Player(double p_x, double p_y, double angle, double speed, double dangle, const sf::Texture& texture)
-  : Object(p_x, p_y, angle, texture), speed{speed}, Dangle{dangle}
+Player::Player(sf::Vector2<float> position, int speed, const sf::Texture& texture)
+  : Object(position, angle, texture), speed{speed}
 {        
 
 }
@@ -13,32 +13,22 @@ Player::Player(double p_x, double p_y, double angle, double speed, double dangle
 
 void Player::update()
 {
-  string movement = "forward";
-  if (movement == "forward" )
-    {
-      pos_x += speed;
-    }
-  
-  if (movement == "left" )
-    {
-      sprite.rotate(sf::degrees(Dangle));
-    }
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
+	{
+		// left key is pressed: move our character
+		position.x += speed;
+	}
 
-  if (movement == "backwards" )
-    {
-      pos_x -= speed;
-    }
-
-  if (movement == "right" )
-    {
-      sprite.rotate(sf::degrees(-Dangle));
-    } 
-  sprite.setPosition({pos_x, pos_y});
-  if(pos_x > 500)
-  {
-	  pos_x = -100;
-  }
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
+	{
+		// left key is pressed: move our character
+		position.x -= speed;
+	}
   
+
+
+	//sprite.setPosition(position);
+
 }
 
 void Player::render(sf::RenderWindow& window)

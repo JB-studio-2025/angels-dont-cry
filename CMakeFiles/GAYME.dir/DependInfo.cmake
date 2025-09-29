@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Johan/Documents/Bella/game_2/gamestate.cc" "CMakeFiles/GAYME.dir/gamestate.cc.obj" "gcc" "CMakeFiles/GAYME.dir/gamestate.cc.obj.d"
   "C:/Users/Johan/Documents/Bella/game_2/main.cc" "CMakeFiles/GAYME.dir/main.cc.obj" "gcc" "CMakeFiles/GAYME.dir/main.cc.obj.d"
+  "C:/Users/Johan/Documents/Bella/game_2/motion.cc" "CMakeFiles/GAYME.dir/motion.cc.obj" "gcc" "CMakeFiles/GAYME.dir/motion.cc.obj.d"
   "C:/Users/Johan/Documents/Bella/game_2/object.cc" "CMakeFiles/GAYME.dir/object.cc.obj" "gcc" "CMakeFiles/GAYME.dir/object.cc.obj.d"
   "C:/Users/Johan/Documents/Bella/game_2/player.cc" "CMakeFiles/GAYME.dir/player.cc.obj" "gcc" "CMakeFiles/GAYME.dir/player.cc.obj.d"
+  "C:/Users/Johan/Documents/Bella/game_2/world.cc" "CMakeFiles/GAYME.dir/world.cc.obj" "gcc" "CMakeFiles/GAYME.dir/world.cc.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

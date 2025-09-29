@@ -4,15 +4,17 @@
 #include<string>
 #include <SFML/Graphics.hpp>
 
+using namespace std;
+
 class Player : public Object
 {
 public:
 	using Object::Object;
-	Player(double, double, double, double, double, const sf::Texture&);
+	Player(sf::Vector2<float>,int, const sf::Texture&);
 	void update()override;
 	void render(sf::RenderWindow&)override;
-	double speed{};
-	double Dangle{};
+	int speed{};
+	int Dangle{};
 };
 
 

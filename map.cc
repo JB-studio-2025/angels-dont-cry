@@ -1,11 +1,11 @@
-#include "map.h"
+#include "world.h"
 #include <SFML/Graphics.hpp>
 
-void map::map(sf::Renderwindow& window, sf::Texture& texture, int world_section_id, vector<int> init_position) : window{window}, background{sprite}, world_section_id{world_section_id}, position{init_position}, sprite{sf::Sprite(texture)}{
+void world::world(sf::Renderwindow& window, sf::Texture& texture, int world_section_id, vector<int> init_position) : window{window}, background{sprite}, world_section_id{world_section_id}, position{init_position}, sprite{sf::Sprite(texture)}{
 	auto map_size = background.shape();
 }
 
-int map::update(){
+int world::update(){
 	for (object* object : objects){
 		object->update();
 	}
@@ -14,11 +14,11 @@ int map::update(){
 	}
 }
 
-void map::render(){
+void world::render(){
 	window.draw(sprite);
 }
 
-void map::~map(){
+void world::~world(){
 	for (object* object : objects){
 		delete object;
 	}

@@ -176,6 +176,30 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/main.cc.s
 .PHONY : main.cc.s
 
+motion.obj: motion.cc.obj
+.PHONY : motion.obj
+
+# target to build an object file
+motion.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/motion.cc.obj
+.PHONY : motion.cc.obj
+
+motion.i: motion.cc.i
+.PHONY : motion.i
+
+# target to preprocess a source file
+motion.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/motion.cc.i
+.PHONY : motion.cc.i
+
+motion.s: motion.cc.s
+.PHONY : motion.s
+
+# target to generate assembly for a file
+motion.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/motion.cc.s
+.PHONY : motion.cc.s
+
 object.obj: object.cc.obj
 .PHONY : object.obj
 
@@ -224,6 +248,30 @@ player.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/player.cc.s
 .PHONY : player.cc.s
 
+world.obj: world.cc.obj
+.PHONY : world.obj
+
+# target to build an object file
+world.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/world.cc.obj
+.PHONY : world.cc.obj
+
+world.i: world.cc.i
+.PHONY : world.i
+
+# target to preprocess a source file
+world.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/world.cc.i
+.PHONY : world.cc.i
+
+world.s: world.cc.s
+.PHONY : world.s
+
+# target to generate assembly for a file
+world.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GAYME.dir\build.make CMakeFiles/GAYME.dir/world.cc.s
+.PHONY : world.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -239,12 +287,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... motion.obj
+	@echo ... motion.i
+	@echo ... motion.s
 	@echo ... object.obj
 	@echo ... object.i
 	@echo ... object.s
 	@echo ... player.obj
 	@echo ... player.i
 	@echo ... player.s
+	@echo ... world.obj
+	@echo ... world.i
+	@echo ... world.s
 .PHONY : help
 
 
