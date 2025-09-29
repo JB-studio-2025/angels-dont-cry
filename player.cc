@@ -16,15 +16,25 @@ void Player::update()
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
 	{
 		// left key is pressed: move our character
-		position.x += speed;
+		position.x -= speed;
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::LControl))
+		{
+			// Running
+			position.x -= speed;
+		}
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
 	{
 		// left key is pressed: move our character
-		position.x -= speed;
+		position.x += speed;
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::LControl))
+		{
+			// Running
+			position.x += speed;
+		}
 	}
-  
+	
 
 
 	//sprite.setPosition(position);

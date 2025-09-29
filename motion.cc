@@ -12,7 +12,7 @@ Motion::Motion(sf::RenderWindow& window, int world_section_id) : window{window},
 		cout << "no file loaded";
 	}
 	//Skapa spelaren:
-	player = new Player({window_size.x/2, window_size.y *9/10}, 3, player_texture);
+	player = new Player({window_size.x/2, window_size.y *9/10}, 2, player_texture);
 	world = make_unique<World>(window, world_section_id, sf::Vector2<float>{200,0}, current_background);
 }
 
